@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(../image/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-color: brown;
+}
+.mini {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.text h1{
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.text p{
+  color: hsl(246, 25%, 77%);
+}
+.green{
+background-color: hsl(248, 32%, 49%);
+padding:  10px 20px;
+text-align: center;
+border-radius: 5px;
+color: white;
+margin-bottom: 10px;
+}
+.green span{
+color: hsl(246, 25%, 77%);
+}
+.red span{
+color: hsl(0, 100%, 74%) ;
+}
+.red{
+  font-size: 12px;
+  text-align: center;
+color:hsl(246, 25%, 77%); ;
+}
+
+.form{
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+
+}
+
+input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+form div i {
+  position: absolute;
+  padding:  23px;
+}
+.failure-icon,.success-icon{
+  right: 0;
+  opacity: 0;
+  top: 10;
+}
+.failure-icon,.error{
+  color: hsl(0, 100%, 74%) ;
+}
+.success-icon,.error{
+  color: green;
+}
+form div {
+  position: relative;
+  margin-bottom: 5px;
+}
+.error {
+  font-size: 13px;
+  margin-top: 5px;
+  color: hsl(0, 100%, 74%) ;
+  text-align: right;
+}
+button{
+    margin:10px 0 ;
+    width: 100%;
+    background-color: hsl(154, 59%, 51%);
+    padding: 10px 0;
+    border-radius: 5px;
+    border-color: hsl(154, 59%, 51%);
+    color: white;
+    cursor: pointer;
+}
