@@ -3,6 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: poppins;
+  src: url("../Poppins/Poppins-ExtraLight.ttf");
+}
+div{
+  font-family: poppins;
+}
 .container {
   width: 100%;
   height: 100%;
@@ -60,6 +67,8 @@ input{
     margin: 5px 0;
     border-radius: 5px;
     padding-left: 20px;
+  color: black;
+  font-weight: bold;
 }
 form div i {
   position: absolute;
