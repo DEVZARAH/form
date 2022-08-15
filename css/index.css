@@ -9,7 +9,7 @@
   margin: 0 auto;
   background-image: url(../image/bg-intro-desktop.png);
   background-repeat: no-repeat;
-  background-color: brown;
+  background-color: rgb(136, 17, 17);
 }
 .mini {
   padding: 80px;
@@ -18,6 +18,11 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
+}
+.con{
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
 }
 .text h1{
   color: white;
@@ -47,17 +52,12 @@ color: hsl(0, 100%, 74%) ;
 color:hsl(246, 25%, 77%); ;
 }
 
-.form{
-    background-color: white;
-    padding: 40px;
-    border-radius: 5px;
 
-}
 
 input{
     width: 100%;
-    padding: 10px 0;
-    margin: 10px 0;
+    padding: 15px 0;
+    margin: 5px 0;
     border-radius: 5px;
     padding-left: 20px;
 }
